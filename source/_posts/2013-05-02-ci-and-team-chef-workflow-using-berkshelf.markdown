@@ -31,12 +31,14 @@ Credits
 
 * [Berkshelf] - Berkshelf.com has a great overview of how to get started.
 * [Jamie@ChefConf] - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.
+* [GangnamStyle] - Bryan Berry's great blog post about the the application/wrapper cookbook pattern.
 * [FoodFightShow] - If you use Chef, you should listen to this show.  Because of reasons.
 
 *Berkshelf FTW.*
 
   [Berkshelf]: http://berkshelf.com/
   [Jamie@ChefConf]: http://www.youtube.com/watch?v=hYt0E84kYUI
+  [GangnamStyle]: http://devopsanywhere.blogspot.com/2012/11/how-to-write-reusable-chef-cookbooks.html
   [FoodFightShow]: http://www.foodfightshow.org
   
   
