@@ -31,7 +31,7 @@ Credits
 
 * [Berkshelf] - Berkshelf.com has a great overview of how to get started.
 * [Jamie@ChefConf] - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.
-* [FoodFightShow] - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.
+* [FoodFightShow] - If you use Chef, you should listen to this show.  Because of reasons.
 
 *Berkshelf FTW.*
 
