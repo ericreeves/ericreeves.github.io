@@ -34,6 +34,8 @@ Credits
 * [GangnamStyle] - Bryan Berry's great blog post about the the application/wrapper cookbook pattern.
 * [FoodFightShow] - If you use Chef, you should listen to this show.  Because of reasons.
 
+This post isn't near finished, and the blog hasn't been publicized yet.  If you found this, you are some kind of Internet wizard.
+
 *Berkshelf FTW!*
 
   [Berkshelf]: http://berkshelf.com/
