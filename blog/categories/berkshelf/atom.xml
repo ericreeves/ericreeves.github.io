@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Alluvium Blog]]></title>
-  <link href="http://ericreeves.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Berkshelf | Alluvium Blog]]></title>
+  <link href="http://ericreeves.github.io/blog/categories/berkshelf/atom.xml" rel="self"/>
   <link href="http://ericreeves.github.io/"/>
   <updated>2013-05-02T17:01:38-05:00</updated>
   <id>http://ericreeves.github.io/</id>
@@ -23,7 +23,7 @@ were full of genuinely smart, geeky, and accessable folks who were all a pleasur
 
 <p>One of the hot topics on my agenda is building a workflow for team Chef development that
 allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
-on each other&#8217;s toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
+on each other's toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
 
 <p>Blahblahblah.</p>
 ]]></content>
