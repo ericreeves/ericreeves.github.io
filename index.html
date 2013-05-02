@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Alluvium Blog</title>
+  <title>Alluvium DevOps</title>
   <meta name="author" content="Eric Reeves">
 
   
-  <meta name="description" content="In the past two weeks I have been to both ChefConf and DevOpsDays Austin. Both of these events
-were full of genuinely smart, geeky, and accessable &hellip;">
+  <meta name="description" content="Inspiration In the past two weeks I have been to both ChefConf and DevOpsDays Austin. Both of these events
+were full of genuinely smart, geeky, and &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +22,7 @@ were full of genuinely smart, geeky, and accessable &hellip;">
   <link rel="canonical" href="http://ericreeves.github.io">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Alluvium Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Alluvium DevOps" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
@@ -37,7 +37,7 @@ were full of genuinely smart, geeky, and accessable &hellip;">
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Alluvium Blog</a></h1>
+  <h1><a href="/">Alluvium DevOps</a></h1>
   
     <h2>Musings of an Ops Guy in Dev Land... (And Whatever Else)</h2>
   
@@ -95,14 +95,38 @@ were full of genuinely smart, geeky, and accessable &hellip;">
   </header>
 
 
-  <div class="entry-content"><p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
+  <div class="entry-content"><h2>Inspiration</h2>
+
+<p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
 were full of genuinely smart, geeky, and accessable folks who were all a pleasure to talk to.</p>
 
 <p>One of the hot topics on my agenda is building a workflow for team Chef development that
 allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
 on each other&#8217;s toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
 
-<p>Blahblahblah.</p>
+<p>In addition to the conferences, I have taken a LOT of inspiration from several key episodes of the FoodFightShow.</p>
+
+<p>This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community, I&#8217;d have nothing.  :)</p>
+
+<h2>Key Points and Assumptions</h2>
+
+<ul>
+<li>Developers must be able to collaborate on a single Chef server without squashing each others changes.</li>
+<li>Cookbooks must be treated like independent software projects with a name, dependencies, a version, a git repository, a CI job, unit tests and functional tests.</li>
+<li>Cookbooks uploaded to a Chef server must be treated as versioned immutable artifacts.</li>
+</ul>
+
+
+<h2>Credits</h2>
+
+<ul>
+<li><a href="http://berkshelf.com/">Berkshelf</a> - Berkshelf.com has a great overview of how to get started.</li>
+<li><a href="http://www.youtube.com/watch?v=hYt0E84kYUI">Jamie@ChefConf</a> - Jamie Winsor gave an awesome talk about &#8216;The Berkshelf Way&#8217; at ChefConf 2013.</li>
+<li><a href="http://www.foodfightshow.org">FoodFightShow</a> - Jamie Winsor gave an awesome talk about &#8216;The Berkshelf Way&#8217; at ChefConf 2013.</li>
+</ul>
+
+
+<p><em>Berkshelf FTW.</em></p>
 </div>
   
   

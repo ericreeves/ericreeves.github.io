@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: OpsChef, | Alluvium Blog]]></title>
+  <title><![CDATA[Category: OpsChef, | Alluvium DevOps]]></title>
   <link href="http://ericreeves.github.io/blog/categories/opschef/atom.xml" rel="self"/>
   <link href="http://ericreeves.github.io/"/>
-  <updated>2013-05-02T17:03:56-05:00</updated>
+  <updated>2013-05-02T17:44:12-05:00</updated>
   <id>http://ericreeves.github.io/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -18,14 +18,38 @@
     <link href="http://ericreeves.github.io/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/"/>
     <updated>2013-05-02T16:57:00-05:00</updated>
     <id>http://ericreeves.github.io/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf</id>
-    <content type="html"><![CDATA[<p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
+    <content type="html"><![CDATA[<h2>Inspiration</h2>
+
+<p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
 were full of genuinely smart, geeky, and accessable folks who were all a pleasure to talk to.</p>
 
 <p>One of the hot topics on my agenda is building a workflow for team Chef development that
 allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
 on each other's toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
 
-<p>Blahblahblah.</p>
+<p>In addition to the conferences, I have taken a LOT of inspiration from several key episodes of the FoodFightShow.</p>
+
+<p>This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community, I'd have nothing.  :)</p>
+
+<h2>Key Points and Assumptions</h2>
+
+<ul>
+<li>Developers must be able to collaborate on a single Chef server without squashing each others changes.</li>
+<li>Cookbooks must be treated like independent software projects with a name, dependencies, a version, a git repository, a CI job, unit tests and functional tests.</li>
+<li>Cookbooks uploaded to a Chef server must be treated as versioned immutable artifacts.</li>
+</ul>
+
+
+<h2>Credits</h2>
+
+<ul>
+<li><a href="http://berkshelf.com/">Berkshelf</a> - Berkshelf.com has a great overview of how to get started.</li>
+<li><a href="http://www.youtube.com/watch?v=hYt0E84kYUI">Jamie@ChefConf</a> - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.</li>
+<li><a href="http://www.foodfightshow.org">FoodFightShow</a> - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.</li>
+</ul>
+
+
+<p><em>Berkshelf FTW.</em></p>
 ]]></content>
   </entry>
   
