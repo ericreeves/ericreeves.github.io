@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CI, | Alluvium DevOps]]></title>
   <link href="http://ericreeves.github.io/blog/categories/ci/atom.xml" rel="self"/>
   <link href="http://ericreeves.github.io/"/>
-  <updated>2013-05-02T17:45:06-05:00</updated>
+  <updated>2013-05-02T17:53:41-05:00</updated>
   <id>http://ericreeves.github.io/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -45,6 +45,7 @@ on each other's toes on a shared Chef server.  A key component of this workflow 
 <ul>
 <li><a href="http://berkshelf.com/">Berkshelf</a> - Berkshelf.com has a great overview of how to get started.</li>
 <li><a href="http://www.youtube.com/watch?v=hYt0E84kYUI">Jamie@ChefConf</a> - Jamie Winsor gave an awesome talk about 'The Berkshelf Way' at ChefConf 2013.</li>
+<li><a href="http://devopsanywhere.blogspot.com/2012/11/how-to-write-reusable-chef-cookbooks.html">GangnamStyle</a> - Bryan Berry's great blog post about the the application/wrapper cookbook pattern.</li>
 <li><a href="http://www.foodfightshow.org">FoodFightShow</a> - If you use Chef, you should listen to this show.  Because of reasons.</li>
 </ul>
 
