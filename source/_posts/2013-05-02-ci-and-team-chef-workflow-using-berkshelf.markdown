@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CI and Team Chef Development Using Berkshelf"
+title: "CI and Team Chef Workflow Using Berkshelf"
 date: 2013-05-02 16:57
 comments: true
 categories: OpsChef, CI, Berkshelf
