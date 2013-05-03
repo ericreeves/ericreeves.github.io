@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: OpsChef, | Alluvium Blog]]></title>
+  <title><![CDATA[Category: OpsChef | Alluvium Blog]]></title>
   <link href="http://ericreeves.github.io/blog/categories/opschef/atom.xml" rel="self"/>
   <link href="http://ericreeves.github.io/"/>
-  <updated>2013-05-02T18:18:16-05:00</updated>
+  <updated>2013-05-02T23:40:28-05:00</updated>
   <id>http://ericreeves.github.io/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -26,6 +26,9 @@ were full of genuinely smart, geeky, and accessable folks who were all a pleasur
 <p>One of the hot topics on my agenda is building a workflow for team Chef development that
 allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
 on each other's toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
+
+<!--more-->
+
 
 <p>In addition to the conferences, I have taken a LOT of inspiration from several key episodes of the FoodFightShow.</p>
 
