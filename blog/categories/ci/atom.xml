@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CI | Alluvium]]></title>
   <link href="http://blog.alluvium.com/blog/categories/ci/atom.xml" rel="self"/>
   <link href="http://blog.alluvium.com/"/>
-  <updated>2013-05-03T17:05:12-05:00</updated>
+  <updated>2013-05-03T17:06:26-05:00</updated>
   <id>http://blog.alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -47,15 +47,14 @@ lot of inspiration from several key episodes of the <a href="http://www.foodfigh
 
 <h2>Phases of Cookbook Development</h2>
 
-<h1>Create a new cookbook using Berkshelf, or clone an existing cookbook repo.</h1>
+<ul>
+<li>Create a new cookbook using Berkshelf, or clone an existing cookbook repo.</li>
+<li>Write / modify the cookbook to taste.</li>
+<li>Verify validity of metadata.rb.  Ensure dependencies are set correctly.</li>
+<li>Test locally with 'vagrant up' for the initial VM launch, and 'vagrant provision' any time the cookbook is modified and needs to be re-converged on the node.</li>
+<li>Once satisfied, commit the changes to Git.  Existing cookbooks will have CI jobs setup which will run Foodcritic, ChefSpec, Minitest Handler.  If tests are successful, bump the metadata.rb version, tag the release in Git, and upload/freeze to the 'Repository Chef Server'.</li>
+</ul>
 
-<h1>Write / modify the cookbook to taste.</h1>
-
-<h1>Verify validity of metadata.rb.  Ensure dependencies are set correctly.</h1>
-
-<h1>Test locally with 'vagrant up' for the initial VM launch, and 'vagrant provision' any time the cookbook is modified and needs to be re-converged on the node.</h1>
-
-<h1>Once satisfied, commit the changes to Git.  Existing cookbooks will have CI jobs setup which will run Foodcritic, ChefSpec, Minitest Handler.  If tests are successful, bump the metadata.rb version, tag the release in Git, and upload/freeze to the 'Repository Chef Server'.</h1>
 
 <p>... but wait, what the hell is a repository Chef server?</p>
 
