@@ -36,11 +36,11 @@ Key Points and Assumptions
 Phases of Cookbook Development
 ------------------------------
 
-# Create a new cookbook using Berkshelf, or clone an existing cookbook repo.
-# Write / modify the cookbook to taste.
-# Verify validity of metadata.rb.  Ensure dependencies are set correctly.
-# Test locally with 'vagrant up' for the initial VM launch, and 'vagrant provision' any time the cookbook is modified and needs to be re-converged on the node.
-# Once satisfied, commit the changes to Git.  Existing cookbooks will have CI jobs setup which will run Foodcritic, ChefSpec, Minitest Handler.  If tests are successful, bump the metadata.rb version, tag the release in Git, and upload/freeze to the 'Repository Chef Server'.
+* Create a new cookbook using Berkshelf, or clone an existing cookbook repo.
+* Write / modify the cookbook to taste.
+* Verify validity of metadata.rb.  Ensure dependencies are set correctly.
+* Test locally with 'vagrant up' for the initial VM launch, and 'vagrant provision' any time the cookbook is modified and needs to be re-converged on the node.
+* Once satisfied, commit the changes to Git.  Existing cookbooks will have CI jobs setup which will run Foodcritic, ChefSpec, Minitest Handler.  If tests are successful, bump the metadata.rb version, tag the release in Git, and upload/freeze to the 'Repository Chef Server'.
 
 ... but wait, what the hell is a repository Chef server?
 
