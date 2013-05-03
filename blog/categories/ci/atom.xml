@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: CI | Alluvium Blog]]></title>
-  <link href="http://ericreeves.github.io/blog/categories/ci/atom.xml" rel="self"/>
-  <link href="http://ericreeves.github.io/"/>
-  <updated>2013-05-03T08:05:57-05:00</updated>
-  <id>http://ericreeves.github.io/</id>
+  <title><![CDATA[Category: CI | Alluvium]]></title>
+  <link href="http://blog.alluvium.com/blog/categories/ci/atom.xml" rel="self"/>
+  <link href="http://blog.alluvium.com/"/>
+  <updated>2013-05-03T08:18:43-05:00</updated>
+  <id>http://blog.alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
     
@@ -15,24 +15,25 @@
   
   <entry>
     <title type="html"><![CDATA[CI and Team Chef Workflow Using Berkshelf]]></title>
-    <link href="http://ericreeves.github.io/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/"/>
+    <link href="http://blog.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/"/>
     <updated>2013-05-02T16:57:00-05:00</updated>
-    <id>http://ericreeves.github.io/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf</id>
-    <content type="html"><![CDATA[<h2>Inspiration</h2>
-
-<p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
-were full of genuinely smart, geeky, and accessable folks who were all a pleasure to talk to.</p>
-
-<p>One of the hot topics on my agenda is building a workflow for team Chef development that
-allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
-on each other's toes on a shared Chef server.  A key component of this workflow is Berkshelf.</p>
+    <id>http://blog.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf</id>
+    <content type="html"><![CDATA[<p>One of the hot topics on my agenda lately is building a workflow for team Chef development that prevents folks from
+stepping on each other's toes on a shared Chef server, and preventing changes to shared LWRP/libraries from blowing up
+all the things.  Key elements of this workflow are cookbook re-use and shareability within the organization, continuous
+integration for each cookbook, and a mechanism for handling cookbook versioning.</p>
 
 <!--more-->
 
 
-<p>In addition to the conferences, I have taken a LOT of inspiration from several key episodes of the FoodFightShow.</p>
+<h2>Inspiration</h2>
 
-<p>This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community, I'd have nothing.  :)</p>
+<p>In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events were full of genuinely
+smart, geeky, and accessable folks who were all a pleasure to talk to. In addition to the conferences, I have taken a
+LOT of inspiration from several key episodes of the FoodFightShow.</p>
+
+<p>This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community,
+I'd have nothing.  So if you like what you see, make sure you thank the folks linked in the Credits.  :)</p>
 
 <h2>Key Points and Assumptions</h2>
 
