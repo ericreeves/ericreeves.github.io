@@ -6,21 +6,22 @@ comments: true
 categories: [OpsChef, CI, Berkshelf]
 ---
 
-Inspiration
------------
-
-In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events
-were full of genuinely smart, geeky, and accessable folks who were all a pleasure to talk to.
-
-One of the hot topics on my agenda is building a workflow for team Chef development that
-allows for continuous integration to be performed on cookbooks, and prevents folks from stepping
-on each other's toes on a shared Chef server.  A key component of this workflow is Berkshelf.
+One of the hot topics on my agenda lately is building a workflow for team Chef development that prevents folks from
+stepping on each other's toes on a shared Chef server, and preventing changes to shared LWRP/libraries from blowing up
+all the things.  Key elements of this workflow are cookbook re-use and shareability within the organization, continuous
+integration for each cookbook, and a mechanism for handling cookbook versioning.
 
 <!--more-->
 
-In addition to the conferences, I have taken a LOT of inspiration from several key episodes of the FoodFightShow. 
+Inspiration
+-----------
 
-This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community, I'd have nothing.  :)
+In the past two weeks I have been to both ChefConf and DevOpsDays Austin.  Both of these events were full of genuinely
+smart, geeky, and accessable folks who were all a pleasure to talk to. In addition to the conferences, I have taken a
+LOT of inspiration from several key episodes of the FoodFightShow.
+
+This post is my take on of the ideas of others.  Without the great conversation and tooling coming from the community,
+I'd have nothing.  So if you like what you see, make sure you thank the folks linked in the Credits.  :)
 
 Key Points and Assumptions
 --------------------------
