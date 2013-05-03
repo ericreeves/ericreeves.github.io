@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CI | Alluvium]]></title>
-  <link href="http://blog.alluvium.com/blog/categories/ci/atom.xml" rel="self"/>
-  <link href="http://blog.alluvium.com/"/>
-  <updated>2013-05-03T17:06:26-05:00</updated>
-  <id>http://blog.alluvium.com/</id>
+  <link href="http://www.alluvium.com/blog/categories/ci/atom.xml" rel="self"/>
+  <link href="http://www.alluvium.com/"/>
+  <updated>2013-05-03T17:10:21-05:00</updated>
+  <id>http://www.alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[CI and Team Chef Workflow Using Berkshelf]]></title>
-    <link href="http://blog.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/"/>
+    <link href="http://www.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/"/>
     <updated>2013-05-02T16:57:00-05:00</updated>
-    <id>http://blog.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf</id>
+    <id>http://www.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf</id>
     <content type="html"><![CDATA[<p>One of the hot topics on my agenda lately is building a workflow for team Chef development that prevents folks from
 stepping on each other's toes on a shared Chef server, and preventing changes to shared LWRP/libraries from blowing up
 all the things.  Key elements of this workflow are cookbook re-use and shareability within the organization, continuous

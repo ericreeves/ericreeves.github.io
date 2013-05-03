@@ -2,16 +2,16 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://blog.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/
+            http://www.alluvium.com/blog/2013/05/02/ci-and-team-chef-workflow-using-berkshelf/
         </loc>
         <lastmod>2013-05-03T17:06:05-05:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.alluvium.com/blog/archives/</loc>
+        <loc>http://www.alluvium.com/blog/archives/</loc>
         <lastmod>2013-05-03T17:06:05-05:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.alluvium.com/</loc>
+        <loc>http://www.alluvium.com/</loc>
         <lastmod>2013-05-03T17:06:05-05:00</lastmod>
     </url>
 </urlset>
