@@ -21,11 +21,9 @@ This post isn't near finished, and the blog hasn't been publicized yet.  If you 
 Inspiration
 -----------
 
-In the past two weeks I have been to both [ChefConf] and [DevOpsDaysAustin].  Both of these events were full of genuinely
-smart, geeky, and accessable folks who were all a pleasure to talk to. In addition to the conferences, I have taken a
-lot of inspiration from several key episodes of the [FoodFightShow].
 
-This post is a collection of my thoughts and opinions based on the ideas of others.  Without the great conversation and tooling coming from the community, I'd have nothing.  So if you like what you see, make sure you thank the folks linked in the Credits.  :)
+
+
 
 
 Key Points and Assumptions
