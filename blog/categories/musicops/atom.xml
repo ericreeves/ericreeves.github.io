@@ -4,7 +4,7 @@
   <title><![CDATA[Category: MusicOps | [ Alluvium ]]]></title>
   <link href="http://www.alluvium.com/blog/categories/musicops/atom.xml" rel="self"/>
   <link href="http://www.alluvium.com/"/>
-  <updated>2013-05-03T21:26:33-05:00</updated>
+  <updated>2013-05-03T21:37:20-05:00</updated>
   <id>http://www.alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -18,7 +18,12 @@
     <link href="http://www.alluvium.com/blog/2013/05/03/introduction/"/>
     <updated>2013-05-03T20:20:00-05:00</updated>
     <id>http://www.alluvium.com/blog/2013/05/03/introduction</id>
-    <content type="html"><![CDATA[<p>So, I have a blog!  Why start now after years of silence?  Well...</p>
+    <content type="html"><![CDATA[<p>Welcome!  I now have a blog!</p>
+
+<p>Why start now after years of blogosphere silence, you ask?  Well...</p>
+
+<!--more-->
+
 
 <p>In the past two weeks I have been to both <a href="http://chefconf.opscode.com/">ChefConf</a> and <a href="http://devopsdays.org/events/2013-austin/">DevOpsDaysAustin</a>.  Both of these events were full of incredibly
 smart, genuinely passionate, and accessable folks who were all a pleasure to talk to.  I learned a lot, and tried to share with others as much as I could.  But alas, the conferences are over and I'd like to keep the ball rolling.  So...</p>
