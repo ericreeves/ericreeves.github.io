@@ -4,6 +4,7 @@ title: "CI and Team Chef Workflow Using Berkshelf"
 date: 2013-05-02 16:57
 comments: true
 categories: [OpsChef, CI, Berkshelf]
+published: false
 ---
 
 One of the hot topics on my agenda lately is building a workflow for team Chef development that prevents folks from

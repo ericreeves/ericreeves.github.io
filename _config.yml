@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://www.alluvium.com
-title: [ Alluvium ]
+title: '[ Alluvium ]'
 subtitle: DevOps<br>DadOps<br>MusicOps<br>Etc...
 author: Eric Reeves
 simple_search: http://google.com/search
@@ -92,7 +92,7 @@ disqus_short_name: alluvium
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-40651712-1
 
 # Facebook Like
 facebook_like: true
