@@ -4,7 +4,7 @@
   <title><![CDATA[Category: MusicOps | [ Alluvium ]]]></title>
   <link href="http://www.alluvium.com/blog/categories/musicops/atom.xml" rel="self"/>
   <link href="http://www.alluvium.com/"/>
-  <updated>2013-05-03T20:25:06-05:00</updated>
+  <updated>2013-05-03T21:26:33-05:00</updated>
   <id>http://www.alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -18,7 +18,20 @@
     <link href="http://www.alluvium.com/blog/2013/05/03/introduction/"/>
     <updated>2013-05-03T20:20:00-05:00</updated>
     <id>http://www.alluvium.com/blog/2013/05/03/introduction</id>
-    <content type="html"><![CDATA[<p>WOOHA.  I'M ON THE INNERTUBEZ!@$!</p>
+    <content type="html"><![CDATA[<p>So, I have a blog!  Why start now after years of silence?  Well...</p>
+
+<p>In the past two weeks I have been to both <a href="http://chefconf.opscode.com/">ChefConf</a> and <a href="http://devopsdays.org/events/2013-austin/">DevOpsDaysAustin</a>.  Both of these events were full of incredibly
+smart, genuinely passionate, and accessable folks who were all a pleasure to talk to.  I learned a lot, and tried to share with others as much as I could.  But alas, the conferences are over and I'd like to keep the ball rolling.  So...</p>
+
+<p>This blog will be a collection of my thoughts and opinions, heavily influenced by and/or outright stolen from others (with appropriate credits/sources).</p>
+
+<p>Without the great conversation and tooling coming from the community, I'd have nothing.  I hope to share a few things that will help others, and learn from anybody interested enough to leave a comment!</p>
+
+<p>I'll also probably post a bit about Music and DadOps stuff here and there...</p>
+
+<p>Let's see where this goes!</p>
+
+<p><em>... and let's hope I don't just abandon it after 3 posts.</em></p>
 ]]></content>
   </entry>
   
