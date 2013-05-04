@@ -4,7 +4,7 @@
   <title><![CDATA[[ Alluvium ]]]></title>
   <link href="http://alluvium.com/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-03T22:50:40-05:00</updated>
+  <updated>2013-05-03T22:55:26-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -39,27 +39,27 @@
 
 <p><em>The authors of the above content deserve nearly full credit for the rest of this blog post, and a number of ideas I have for future posts.</em></p>
 
-<p>I have had great success using <a href="http://berkshelf.com/">Berkshelf</a>/<a href="http://vagrantup.com/">Vagrant</a> to rapidly iterate on a cookbook and get quick feedback on changes.  And now with Vagrant 1.1&#8217;s provider plugin interface, this workflow does not limit you to just Virtualbox.  There are already provider plugins for AWS and Rackspace among others.  Hurrah!</p>
+<p>I have had great success using <a href="http://berkshelf.com/">Berkshelf</a>/<a href="http://vagrantup.com/">Vagrant</a> to rapidly iterate on a Cookbook and get quick feedback on changes.  And now with Vagrant 1.1&#8217;s provider plugin interface, this workflow does not limit you to just Virtualbox.  There are already provider plugins for AWS and Rackspace among others.  Hurrah!</p>
 
 <h2>Team Chef Development</h2>
 
-<p>The next step is figuring out how to manage cookbook versioning in a multi-user development environment, and ensuring that teams aren&#8217;t repeating each others work or stepping on each other&#8217;s toes.  Cookbooks must be shared between teams, and these shared cookbooks must be well-tested given the impact is potentially much wider than just a single team.  This is a bit trickier&#8230;</p>
+<p>The next step is figuring out how to manage Cookbook versioning in a multi-user development environment, and ensuring that teams aren&#8217;t repeating each others work or stepping on each other&#8217;s toes.  Cookbooks must be shared between teams, and these shared Cookbooks must be well-tested given the impact is potentially much wider than just a single team.  This is a bit trickier&#8230;</p>
 
 <p>Here are a few ground rules that could be the basis of a sound Team Chef Development Workflow:</p>
 
 <ul>
-<li>Only Application Cookbooks get assigned to nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second&#8230;)</li>
-<li>Library Cookbooks should change their behavior based upon configured attributes.</li>
+<li>Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second&#8230;)</li>
+<li>Library Cookbooks should change their behavior based upon configured Attributes.</li>
 <li>Attributes only get set in two places: the metadata.rb of the Application Cookbook, and the Environment.   This makes troubleshooting much easier.</li>
-<li>Search by Tags to locate nodes, not by run_list entry or role.  This is a much more flexible solution, and allows you to do things like only add your web server to the load balancer once you have verified it and set the tag.  (Or abandon search all-together and start using a service registry like ZooKeeper, but that&#8217;s another blog post).</li>
-<li>Community cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.</li>
-<li>Versioning of internal cookbooks should be managed by the build server, and ONLY the build server.</li>
+<li>Search by Tags to locate Nodes, not by run_list entry or Role.  This is a much more flexible solution, and allows you to do things like only add your web server to the load balancer once you have verified it and set the Tag.  (Or abandon search all-together and start using a service registry like ZooKeeper, but that&#8217;s another blog post).</li>
+<li>Community Cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the Cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.</li>
+<li>Versioning of internal Cookbooks should be managed by the build server, and ONLY the build server.</li>
 </ul>
 
 
 <h2>Why Roles Are An Issue</h2>
 
-<p>This is a controversial subject, but I have a problematic use case that we have already been bitten by, and I cannot solve easily with roles.</p>
+<p>This is a controversial subject, but I have a problematic use case that we have already been bitten by, and I cannot solve easily with Roles.</p>
 
 <ul>
 <li>Teams A, and B are both working on the Chef server.  Both teams are working on the web_server Role.</li>
@@ -74,7 +74,7 @@
 
 <ul>
 <li>Set a run_list</li>
-<li>Set attributes</li>
+<li>Set Attributes</li>
 <li>Tag a node with a friendly name</li>
 </ul>
 
