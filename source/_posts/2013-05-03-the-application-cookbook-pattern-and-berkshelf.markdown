@@ -4,6 +4,7 @@ title: "The Application Cookbook Pattern and Berkshelf"
 date: 2013-05-03 21:48
 comments: true
 categories: [DevOps,ChefConf,OpsChef]
+published: false
 ---
 
 I am a fan of "The Berkshelf Way".
@@ -31,8 +32,8 @@ There are a few important points:
 
   [ChefConf]: http://chefconf.opscode.com/
   [Berkshelf]: http://berkshelf.com/ 
-  [Vagrant]: http://www.vagrantup.com/ 
+  [Vagrant]: http://vagrantup.com/ 
   [Jamie@ChefConf]: http://www.youtube.com/watch?v=hYt0E84kYUI
   [GangnamStyle]: http://devopsanywhere.blogspot.com/2012/11/how-to-write-reusable-chef-cookbooks.html
-  [FoodFightShow]: http://www.foodfightshow.org
+  [FoodFightShow]: http://foodfightshow.org
   [GuideToAuthoringCookbooks]: http://vialstudios.com/guide-authoring-cookbooks.html
