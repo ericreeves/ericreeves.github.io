@@ -6,7 +6,9 @@ comments: true
 categories: [DevOps, DadOps, MusicOps, ChefConf, DevOpsDays]
 ---
 
-Welcome!  I now have a blog!  
+Welcome!
+--------
+I now have a blog!  
 
 Why start now after years of blogosphere silence, you ask?  Well...
 
