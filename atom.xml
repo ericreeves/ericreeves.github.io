@@ -4,7 +4,7 @@
   <title><![CDATA[[ Alluvium ]]]></title>
   <link href="http://alluvium.com/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-03T22:06:38-05:00</updated>
+  <updated>2013-05-03T22:07:41-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -12,42 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[The Application Cookbook Pattern and Berkshelf]]></title>
-    <link href="http://alluvium.com/blog/2013/05/03/the-application-cookbook-pattern-and-berkshelf/"/>
-    <updated>2013-05-03T21:48:00-05:00</updated>
-    <id>http://alluvium.com/blog/2013/05/03/the-application-cookbook-pattern-and-berkshelf</id>
-    <content type="html"><![CDATA[<p>I am a fan of &#8220;The Berkshelf Way&#8221;.</p>
-
-<p>If you aren&#8217;t familiar with Berkshelf or the Application Cookbook pattern, do yourself a favor and spend some time on the following links&#8230;  This is the basis for a number of ideas I have for future posts.</p>
-
-<!--more-->
-
-
-<ul>
-<li><a href="http://berkshelf.com/">Berkshelf</a> - The official Berkshelf docs.</li>
-<li><a href="http://www.youtube.com/watch?v=hYt0E84kYUI">Jamie@ChefConf</a> - Jamie Winsor&#8217;s &#8220;The Berkshelf Way&#8221; talk from <a href="http://chefconf.opscode.com/">ChefConf</a> 2013.</li>
-<li><a href="http://devopsanywhere.blogspot.com/2012/11/how-to-write-reusable-chef-cookbooks.html">GangnamStyle</a> - Bryan Berry&#8217;s &#8220;How to Write Reusable Chef Cookbooks, Gangnam Style&#8221; blog post</li>
-<li><a href="http://vialstudios.com/guide-authoring-cookbooks.html">GuideToAuthoringCookbooks</a> - A tutorial that will demonstrate the awesomeness of the workflow that the <a href="http://berkshelf.com/">Berkshelf</a>/<a href="http://www.vagrantup.com/">Vagrant</a> combo provides.</li>
-</ul>
-
-
-<p>In order for multiple teams to be able to effectively work together on a set of Chef cookbooks, it is particularly important that cookbooks be made as reusable as possible, and that silos aren&#8217;t repeating work.  A common set of organizational &#8216;base&#8217; cookbooks, Berkshelf, and the &#8216;Application Cookbook&#8217; pattern is the way to make this happen.</p>
-
-<p>There are a few important points:</p>
-
-<ul>
-<li>Only Application Cookbooks get assigned to nodes.  Not Library Cookbooks, or complex roles.  (Stick with me for a second&#8230;)</li>
-<li>Library cookbooks should change their behavior based upon configured attributes.</li>
-<li>You should never apply the &#8216;apache2&#8217; cookbook directly to a node, or even a role.  You should use &#8216;include_recipe&#8217; in an Application Cookbook, and override all of the attributes you need to adapt to your environment in its metadata.rb.</li>
-<li>Search by Tags to locate nodes, not by run_list entry or role.  This is a much more flexible solution, and allows you to do things like only add your web server to the load balancer once you have verified it and set the tag.  (Or abandon search all-together and start using a service registry like ZooKeeper, but that&#8217;s another blog post).</li>
-<li>Community cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If the need to fork is a must, strive to update the cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without a bunch of potentially ugly merging.</li>
-<li>Versioning of organizational cookbooks should be managed by the build server, and ONLY the build server.</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introduction]]></title>
