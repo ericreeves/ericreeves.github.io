@@ -18,8 +18,8 @@ If you aren't familiar with Berkshelf or the Application Cookbook pattern, do yo
 
 * [Berkshelf] - The official Berkshelf docs.
 * [Jamie@ChefConf] - Jamie Winsor's "The Berkshelf Way" talk from [ChefConf] 2013.
-* [GangnamStyle] - Bryan Berry's "How to Write Reusable Chef Cookbooks, Gangnam Style" blog post
-* [FoodFightShow24] - Jamie Winsor and Michael Ivey from Riot Games on the FoodFightShow.  Why they wrote Berkshelf, and why they don't like Roles.
+* [GangnamStyle] - Bryan Berry's "How to Write Reusable Chef Cookbooks, Gangnam Style" blog post.
+* [FoodFightShow24] - Jamie Winsor and Michael Ivey from Riot Games on the FoodFightShow.  Why they wrote Berkshelf, how they develop Cookbooks, why they don't like Roles, and more.
 * [FoodFightShow32] - Etsy and Riot Games both talking about their unique approaches to Team Chef Development.
 * [GuideToAuthoringCookbooks] - A tutorial that will demonstrate the awesomeness of the workflow that the [Berkshelf]/[Vagrant] combo provides.
 
