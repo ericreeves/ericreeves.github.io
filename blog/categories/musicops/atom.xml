@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: MusicOps | [ Alluvium ]]]></title>
-  <link href="http://www.alluvium.com/blog/categories/musicops/atom.xml" rel="self"/>
-  <link href="http://www.alluvium.com/"/>
-  <updated>2013-05-03T21:37:20-05:00</updated>
-  <id>http://www.alluvium.com/</id>
+  <link href="http://alluvium.com/blog/categories/musicops/atom.xml" rel="self"/>
+  <link href="http://alluvium.com/"/>
+  <updated>2013-05-03T22:06:38-05:00</updated>
+  <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introduction]]></title>
-    <link href="http://www.alluvium.com/blog/2013/05/03/introduction/"/>
+    <link href="http://alluvium.com/blog/2013/05/03/introduction/"/>
     <updated>2013-05-03T20:20:00-05:00</updated>
-    <id>http://www.alluvium.com/blog/2013/05/03/introduction</id>
+    <id>http://alluvium.com/blog/2013/05/03/introduction</id>
     <content type="html"><![CDATA[<p>Welcome!  I now have a blog!</p>
 
 <p>Why start now after years of blogosphere silence, you ask?  Well...</p>
