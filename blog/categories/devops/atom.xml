@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[[ Alluvium ]]]></title>
-  <link href="http://www.alluvium.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: DevOps | [ Alluvium ]]]></title>
+  <link href="http://www.alluvium.com/blog/categories/devops/atom.xml" rel="self"/>
   <link href="http://www.alluvium.com/"/>
   <updated>2013-05-03T20:25:06-05:00</updated>
   <id>http://www.alluvium.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://www.alluvium.com/blog/2013/05/03/introduction/"/>
     <updated>2013-05-03T20:20:00-05:00</updated>
     <id>http://www.alluvium.com/blog/2013/05/03/introduction</id>
-    <content type="html"><![CDATA[<p>WOOHA.  I&#8217;M ON THE INNERTUBEZ!@$!</p>
+    <content type="html"><![CDATA[<p>WOOHA.  I'M ON THE INNERTUBEZ!@$!</p>
 ]]></content>
   </entry>
   
