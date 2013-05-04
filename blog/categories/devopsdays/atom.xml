@@ -4,7 +4,7 @@
   <title><![CDATA[Category: DevOpsDays | [ Alluvium ]]]></title>
   <link href="http://alluvium.com/blog/categories/devopsdays/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-03T22:07:41-05:00</updated>
+  <updated>2013-05-03T22:50:40-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -18,7 +18,9 @@
     <link href="http://alluvium.com/blog/2013/05/03/introduction/"/>
     <updated>2013-05-03T20:20:00-05:00</updated>
     <id>http://alluvium.com/blog/2013/05/03/introduction</id>
-    <content type="html"><![CDATA[<p>Welcome!  I now have a blog!</p>
+    <content type="html"><![CDATA[<h2>Welcome!</h2>
+
+<p>I now have a blog!</p>
 
 <p>Why start now after years of blogosphere silence, you ask?  Well...</p>
 
