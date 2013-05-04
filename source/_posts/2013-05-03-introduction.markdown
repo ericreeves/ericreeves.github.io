@@ -6,7 +6,11 @@ comments: true
 categories: [DevOps, DadOps, MusicOps, ChefConf, DevOpsDays]
 ---
 
-So, I have a blog!  Why start now after years of silence?  Well...
+Welcome!  I now have a blog!  
+
+Why start now after years of blogosphere silence, you ask?  Well...
+
+<!--more-->
 
 In the past two weeks I have been to both [ChefConf] and [DevOpsDaysAustin].  Both of these events were full of incredibly
 smart, genuinely passionate, and accessable folks who were all a pleasure to talk to.  I learned a lot, and tried to share with others as much as I could.  But alas, the conferences are over and I'd like to keep the ball rolling.  So...
