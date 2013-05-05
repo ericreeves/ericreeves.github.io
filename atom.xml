@@ -4,7 +4,7 @@
   <title><![CDATA[[ Alluvium ]]]></title>
   <link href="http://alluvium.com/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-04T21:36:04-05:00</updated>
+  <updated>2013-05-04T21:51:07-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -61,9 +61,9 @@
 </ul>
 
 
-<h2>Why Roles Are An Issue</h2>
+<h2>The Problem With Roles</h2>
 
-<p>This is a controversial subject, but I have a problematic use case that we have already been bitten by, and I cannot solve easily with Roles.</p>
+<p>This is a controversial subject, but we have a problematic use case that we have already been bitten by, and a clear solution using Roles hasn&#8217;t yet surfaced.</p>
 
 <ul>
 <li>Teams A, and B are both working on the Chef server.  Both teams are working on the web_server Role.</li>
