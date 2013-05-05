@@ -4,7 +4,7 @@
   <title><![CDATA[Category: DevOps | [ Alluvium ]]]></title>
   <link href="http://alluvium.com/blog/categories/devops/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-03T23:01:36-05:00</updated>
+  <updated>2013-05-04T21:32:47-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -41,6 +41,8 @@
 
 <p>I have had great success using <a href="http://berkshelf.com/">Berkshelf</a>/<a href="http://vagrantup.com/">Vagrant</a> to rapidly iterate on a Cookbook and get quick feedback on changes.  And now with Vagrant 1.1's provider plugin interface, this workflow does not limit you to just Virtualbox.  There are already provider plugins for AWS and Rackspace among others.  Hurrah!</p>
 
+<p>This works very well for initial development and quick fixes, but when you need to have multiple teams collaborating on a shared set of cookbooks, there are some additional factors to take in to consideration.</p>
+
 <h2>Team Chef Development</h2>
 
 <p>The next step is figuring out how to manage Cookbook versioning in a multi-user development environment, and ensuring that teams aren't repeating each others work or stepping on each other's toes.  Cookbooks must be shared between teams, and these shared Cookbooks must be well-tested given the impact is potentially much wider than just a single team.  This is a bit trickier...</p>
@@ -48,12 +50,14 @@
 <p>Here are a few ground rules that could be the basis of a sound Team Chef Development Workflow:</p>
 
 <ul>
-<li>Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second...)</li>
-<li>Library Cookbooks should change their behavior based upon configured Attributes.</li>
-<li>Attributes only get set in two places: the metadata.rb of the Application Cookbook, and the Environment.   This makes troubleshooting much easier.</li>
-<li>Search by Tags to locate Nodes, not by run_list entry or Role.  This is a much more flexible solution, and allows you to do things like only add your web server to the load balancer once you have verified it and set the Tag.  (Or abandon search all-together and start using a service registry like ZooKeeper, but that's another blog post).</li>
-<li>Community Cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the Cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.</li>
 <li>Versioning of internal Cookbooks should be managed by the build server, and ONLY the build server.</li>
+<li>Application Cookbook verions are pinned at the Environment level.</li>
+<li>Library Cookbook versions are pinned in the metadata.rb of the Application Cookbook that includes them.</li>
+<li>Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second...)</li>
+<li>Library Cookbooks should change their behavior based upon Attributes.</li>
+<li>Defaults for Attributes are provided in the Library Cookbook attributes/default.rb.  Default Attributes are only over-ridden in two places: the metadata.rb of the Application Cookbook, and the Environment.   This makes troubleshooting much easier.  Setting Attributes in Roles seems unnecessary and just adds an extra place to look (a place that is not versioned).</li>
+<li>Search by Tags or a custom Attribute to locate Nodes, not by run_list entry or Role.  Provide functions to call these searches in a Library Cookbook, so the location mechanism is easily swapped out or refactored down the road.  (Or abandon search all together and start using a service registry like ZooKeeper, but that's another blog post).</li>
+<li>Community Cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the Cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.</li>
 </ul>
 
 
@@ -68,21 +72,20 @@
 </ul>
 
 
-<p>I know you can setup Environment-specific run_lists, but we routinely have 15+ dev/test environments up.  This is clearly not a maintainable solution.</p>
+<p>I know you can setup Environment-specific run_lists, but we routinely have 15+ dev/test environments up, and don't see this number falling any time soon.  This is clearly not a maintainable solution.</p>
 
 <p>At the end of the day, Roles only do 3 things:</p>
 
-<ul>
-<li>Set a run_list</li>
-<li>Set Attributes</li>
-<li>Tag a node with a friendly name</li>
-</ul>
+<ol>
+<li>Manipulate the run_list.</li>
+<li>Set Attributes.</li>
+<li>Tag a node with a friendly name.</li>
+</ol>
 
 
-<p>If you use an Application Cookbook to accomplish #1 and #2, then suddenly your Role is versioned and can be pinned differently per Environment on your Chef server.  If you change your Chef searches to look for a Node Tag instead of a Role, then you actually gain
-a little bit of flexibility.  Ever wanted to verify a new web server by hand before you brought it in to the load balancer pool?  Don't Tag it until you're ready, instead of having the Role immediately match a search.</p>
+<p>If you use an Application Cookbook to accomplish #1 and #2, then suddenly your Role is versioned and can be pinned differently per Environment on your Chef server.  To handle #3, change your Chef searches to look for a Node Tag or custom Attribute instead of a Role, and gain a little bit of flexibility in the process.  Ever wanted to verify a new web server by hand before you brought it in to the load balancer pool?  Don't Tag it or set the custom Attribute until you've validated the Node, instead of having the Role immediately match a search.</p>
 
-<p>Thoughts on any of this?</p>
+<p>Thoughts on any of this?  Anything I should go in to more detail on?</p>
 
 <p>I'm planning on some future posts to go in to more detail on some of these areas...  Particularly CI and testing!</p>
 ]]></content>
