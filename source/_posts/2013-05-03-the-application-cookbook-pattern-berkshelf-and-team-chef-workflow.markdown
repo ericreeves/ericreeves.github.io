@@ -63,7 +63,7 @@ At the end of the day, Roles only do 3 things:
 
 If you use an Application Cookbook to accomplish #1 and #2, then suddenly your Role is versioned and can be pinned differently per Environment on your Chef server.  To handle #3, change your Chef searches to look for a Node Tag or custom Attribute instead of a Role, and gain a little bit of flexibility in the process.  Ever wanted to verify a new web server by hand before you brought it in to the load balancer pool?  Don't Tag it or set the custom Attribute until you've validated the Node, instead of having the Role immediately match a search.
 
-Thoughts on any of this?  Anything I should go in to more detail on?
+Thoughts on any of this?
 
 I'm planning on some future posts to go in to more detail on some of these areas...  Particularly CI and testing!
 
