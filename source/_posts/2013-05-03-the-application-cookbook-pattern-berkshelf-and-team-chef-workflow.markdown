@@ -27,7 +27,7 @@ If you aren't familiar with Berkshelf or the Application Cookbook pattern, do yo
 
 I have had great success using [Berkshelf]/[Vagrant] to rapidly iterate on a Cookbook and get quick feedback on changes.  And now with Vagrant 1.1's provider plugin interface, this workflow does not limit you to just Virtualbox.  There are already provider plugins for AWS and Rackspace among others.  Hurrah!
 
-This works very well for initial development and quick fixes, but when you need to have multiple teams collaborating on a shared set of cookbooks, there are some additional factors to take in to consideration.
+This works very well for initial development and quick fixes, but when you need to have multiple teams collaborating on a shared set of Cookbooks, there are some additional factors to take in to consideration.
 
 Team Chef Development
 ---------------------
