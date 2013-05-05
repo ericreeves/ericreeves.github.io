@@ -4,7 +4,7 @@
   <title><![CDATA[[ Alluvium ]]]></title>
   <link href="http://alluvium.com/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-04T21:33:41-05:00</updated>
+  <updated>2013-05-04T21:34:55-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -85,7 +85,7 @@
 
 <p>If you use an Application Cookbook to accomplish #1 and #2, then suddenly your Role is versioned and can be pinned differently per Environment on your Chef server.  To handle #3, change your Chef searches to look for a Node Tag or custom Attribute instead of a Role, and gain a little bit of flexibility in the process.  Ever wanted to verify a new web server by hand before you brought it in to the load balancer pool?  Don&#8217;t Tag it or set the custom Attribute until you&#8217;ve validated the Node, instead of having the Role immediately match a search.</p>
 
-<p>Thoughts on any of this?  Anything I should go in to more detail on?</p>
+<p>Thoughts on any of this?</p>
 
 <p>I&#8217;m planning on some future posts to go in to more detail on some of these areas&#8230;  Particularly CI and testing!</p>
 ]]></content>
