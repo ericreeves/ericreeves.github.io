@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ChefConf | [ Alluvium ]]]></title>
   <link href="http://alluvium.com/blog/categories/chefconf/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-04T21:34:55-05:00</updated>
+  <updated>2013-05-04T21:36:04-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -41,7 +41,7 @@
 
 <p>I have had great success using <a href="http://berkshelf.com/">Berkshelf</a>/<a href="http://vagrantup.com/">Vagrant</a> to rapidly iterate on a Cookbook and get quick feedback on changes.  And now with Vagrant 1.1's provider plugin interface, this workflow does not limit you to just Virtualbox.  There are already provider plugins for AWS and Rackspace among others.  Hurrah!</p>
 
-<p>This works very well for initial development and quick fixes, but when you need to have multiple teams collaborating on a shared set of cookbooks, there are some additional factors to take in to consideration.</p>
+<p>This works very well for initial development and quick fixes, but when you need to have multiple teams collaborating on a shared set of Cookbooks, there are some additional factors to take in to consideration.</p>
 
 <h2>Team Chef Development</h2>
 
