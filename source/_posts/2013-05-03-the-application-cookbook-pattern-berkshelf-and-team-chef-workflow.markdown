@@ -45,9 +45,9 @@ Here are a few ground rules that could be the basis of a sound Team Chef Develop
 * Search by Tags or a custom Attribute to locate Nodes, not by run_list entry or Role.  Provide functions to call these searches in a Library Cookbook, so the location mechanism is easily swapped out or refactored down the road.  (Or abandon search all together and start using a service registry like ZooKeeper, but that's another blog post).
 * Community Cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the Cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.
 
-Why Roles Are An Issue
+The Problem With Roles
 ----------------------
-This is a controversial subject, but I have a problematic use case that we have already been bitten by, and I cannot solve easily with Roles.  
+This is a controversial subject, but we have a problematic use case that we have already been bitten by, and a clear solution using Roles hasn't yet surfaced.  
 
 * Teams A, and B are both working on the Chef server.  Both teams are working on the web_server Role.  
 * Team B needs to run a bleeding edge version of the web stack which requires an additional Recipe in the web_server run_list.  
