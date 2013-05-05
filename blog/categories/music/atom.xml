@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: MusicOps | [ Alluvium ]]]></title>
-  <link href="http://alluvium.com/blog/categories/musicops/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Music | [ Alluvium ]]]></title>
+  <link href="http://alluvium.com/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-04T21:32:47-05:00</updated>
+  <updated>2013-05-04T21:33:41-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
