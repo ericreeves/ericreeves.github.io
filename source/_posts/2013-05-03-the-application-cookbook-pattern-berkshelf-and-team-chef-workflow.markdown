@@ -37,7 +37,7 @@ The next step is figuring out how to manage Cookbook versioning in a multi-user 
 Here are a few ground rules that could be the basis of a sound Team Chef Development Workflow:
 
 * Versioning of internal Cookbooks should be managed by the build server, and ONLY the build server.
-* Application Cookbook verions are pinned at the Environment level.
+* Application Cookbook versions are pinned at the Environment level.
 * Library Cookbook versions are pinned in the metadata.rb of the Application Cookbook that includes them.
 * Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second...)
 * Library Cookbooks should change their behavior based upon Attributes.
