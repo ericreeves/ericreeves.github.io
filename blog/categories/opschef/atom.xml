@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OpsChef | [ Alluvium ]]]></title>
   <link href="http://alluvium.com/blog/categories/opschef/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-04T21:51:07-05:00</updated>
+  <updated>2013-05-06T09:50:45-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -51,7 +51,7 @@
 
 <ul>
 <li>Versioning of internal Cookbooks should be managed by the build server, and ONLY the build server.</li>
-<li>Application Cookbook verions are pinned at the Environment level.</li>
+<li>Application Cookbook versions are pinned at the Environment level.</li>
 <li>Library Cookbook versions are pinned in the metadata.rb of the Application Cookbook that includes them.</li>
 <li>Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second...)</li>
 <li>Library Cookbooks should change their behavior based upon Attributes.</li>
