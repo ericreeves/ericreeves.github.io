@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ChefConf | [ Alluvium ]]]></title>
   <link href="http://alluvium.com/blog/categories/chefconf/atom.xml" rel="self"/>
   <link href="http://alluvium.com/"/>
-  <updated>2013-05-06T09:50:45-05:00</updated>
+  <updated>2014-03-31T17:46:32-05:00</updated>
   <id>http://alluvium.com/</id>
   <author>
     <name><![CDATA[Eric Reeves]]></name>
@@ -55,7 +55,7 @@
 <li>Library Cookbook versions are pinned in the metadata.rb of the Application Cookbook that includes them.</li>
 <li>Only Application Cookbooks get assigned to Nodes.  Not Library Cookbooks, or Roles.  (Stick with me for a second...)</li>
 <li>Library Cookbooks should change their behavior based upon Attributes.</li>
-<li>Defaults for Attributes are provided in the Library Cookbook attributes/default.rb.  Default Attributes are only over-ridden in two places: the metadata.rb of the Application Cookbook, and the Environment.   This makes troubleshooting much easier.  Setting Attributes in Roles seems unnecessary and just adds an extra place to look (a place that is not versioned).</li>
+<li>Defaults for Attributes are provided in the Library Cookbook attributes/default.rb.  Default Attributes are only over-ridden in two places: the attributes of the Application Cookbook, and the Environment.   This makes troubleshooting much easier.  Setting Attributes in Roles seems unnecessary and just adds an extra place to look (a place that is not versioned).</li>
 <li>Search by Tags or a custom Attribute to locate Nodes, not by run_list entry or Role.  Provide functions to call these searches in a Library Cookbook, so the location mechanism is easily swapped out or refactored down the road.  (Or abandon search all together and start using a service registry like ZooKeeper, but that's another blog post).</li>
 <li>Community Cookbooks pulled in as dependencies by Berkshelf should not be forked internally, unless it is unavoidable.  If you must fork perhaps due to an unfixed bug, strive to update the Cookbook, make it more flexible to meet your needs, add some tests, and send in a pull request.  This way the community benefits from the work, and you will continue to gain the benefits of future community-added features without the burden of maintaining and updating a fork.</li>
 </ul>
