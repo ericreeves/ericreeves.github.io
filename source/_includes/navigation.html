@@ -2,8 +2,14 @@
   <div class="navbar-inner">
     <a class="brand" href="{{ root_url }}/">{{ site.title }}</a>
     <ul class="nav">
-      <li><a href="{{ root_url }}/">Home</a></li>
-      <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+      <li><a href="{{ root_url }}/blog/archives">All Blogs</a></li>
+      {% for navigation_element in site.navigation_elements %}
+      <li>
+        <a href="{{ navigation_element.link }}">
+          {{ navigation_element.name }}
+        </a>
+      </li>
+      {% endfor %}
     </ul>
     <ul class="nav" data-subscription="rss{% if site.subscribe_email %} email{% endif %}">
       <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>

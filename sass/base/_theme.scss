@@ -8,19 +8,20 @@
   background-attachment: scroll;
   background-clip: border-box;
   background-color: #323232;
-  background-image: url("/images/befuddledsenses-7265981394.jpg");
+  background-image: url("/images/heroBack.jpg");
   background-origin: padding-box;
   background-position: 0 0;
   background-repeat: repeat;
   background-size: auto auto;
   margin: 0px;
-  padding: 75px;
+  padding-top: 125px;
   z-index: -1;
   height: 550px;
 }
 #hero-inner {
   font-family: 'Cantarell', sans-serif;
-  margin-top: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 #hero-inner h1 {
   font-size: 60px;
@@ -80,7 +81,7 @@ article h1 {
 }
 .wrapper_single {
   background-color: #F1F1F1;
-  background-image: url("/images/befuddledsenses-7265981394.jpg");
+  background-image: url("/images/heroBack.jpg");
   background-attachment: fixed;
   padding-top: 75px;
   padding-bottom: 75px;
